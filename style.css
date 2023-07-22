@@ -364,7 +364,7 @@ h3 i {
   background-image: url(https://t2.genius.com/unsafe/418x418/https%3A%2F%2Fimages.genius.com%2Fc95f235fb30ed63631dd30a8fb392325.1000x1000x1.jpg);
   background-size: cover;
   object-fit: cover;
-  background-position:center;
+  background-position: center;
 }
 
 .one .div3 {
@@ -400,7 +400,7 @@ h3 i {
   /* background-color: #ffff00; */
   display: flex;
   align-items: center;
-  justify-content:start;
+  justify-content: start;
   text-transform: capitalize;
   font-size: 1.5rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -415,28 +415,32 @@ h3 i {
   align-items: center;
   justify-content: space-around;
 }
-.three #r{
+
+.three #r {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 0.90rem;
   display: flex;
   align-items: center;
-  
+
 }
-.three #r i{
+
+.three #r i {
   font-size: 1.2rem;
   color: #ff0000a7;
   padding-right: 7px;
 }
-.three #s{
+
+.three #s {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 0.88rem;
   display: flex;
   align-items: center;
-  
+
 }
-.three #s i{
+
+.three #s i {
   font-size: 1.2rem;
   padding-right: 5px;
 }
@@ -446,7 +450,7 @@ h3 i {
   width: 100%;
   height: 11%;
   display: flex;
-  align-items:end;
+  align-items: end;
   justify-content: center;
 }
 
@@ -462,4 +466,3 @@ h3 i {
   letter-spacing: 2px;
   cursor: pointer;
 }
- 
