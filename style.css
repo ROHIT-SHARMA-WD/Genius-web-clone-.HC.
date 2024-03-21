@@ -7,6 +7,7 @@
 body {
   width: 100%;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 .header {
@@ -52,9 +53,11 @@ form i {
 .header p {
   letter-spacing: 6px;
   font-weight: 700;
-  font-size: 1.4rem;
-  text-shadow: -7px 4px 2px #909090;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  text-shadow: -4px 0px 1.5px #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-text-stroke: 0.4px black;
+  color: #f8ff33;
 }
 
 .header .buttons {
@@ -117,7 +120,10 @@ i:hover {
 }
 
 /* main: continer-one */
-main {
+main>* {
+  margin: auto;
+  max-width: 1500px;
+  max-height: 900px;
   padding: 0px 50px;
 }
 
@@ -265,10 +271,11 @@ main {
 }
 
 /* contaner th */
+
 .contianer-th {
   width: 100%;
-  height: 900px;
-  margin-bottom: 20px;
+  height: 1000px;
+  margin-bottom: 80px;
 }
 
 /*  */
@@ -320,7 +327,7 @@ h3 i {
 /*  */
 .contianer-th .th-part-two {
   width: 100%;
-  height: 80%;
+  height: 75%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(1fr, 11);
@@ -354,7 +361,7 @@ h3 i {
   font-size: 1.3em;
   padding: 5px;
   font-weight: 600;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .one .div2 {
@@ -390,7 +397,7 @@ h3 i {
   color: #4d4d4d;
   text-transform: uppercase;
   margin-top: 3.5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* two */
@@ -403,7 +410,8 @@ h3 i {
   justify-content: start;
   text-transform: capitalize;
   font-size: 1.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /* three */
@@ -417,12 +425,11 @@ h3 i {
 }
 
 .three #r {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
-  font-size: 0.90rem;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
-
 }
 
 .three #r i {
@@ -432,12 +439,11 @@ h3 i {
 }
 
 .three #s {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 0.88rem;
   display: flex;
   align-items: center;
-
 }
 
 .three #s i {
@@ -448,7 +454,7 @@ h3 i {
 /*  */
 .contianer-th .th-part-three {
   width: 100%;
-  height: 11%;
+  height: 10%;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -464,5 +470,121 @@ h3 i {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: transparent;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* contianer-four */
+
+.contianer-fo {
+  height: 900px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: none;
+}
+
+.c-fo-one {
+  height: 15%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-fo-one h2 {
+  color: #ffffff;
+  font-size: 6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 130px;
+}
+
+.c-fo-one p {
+  color: yellow;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.c-fo-two {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.c-fo-two .video-cft {
+  width: 70%;
+  height: 100%;
+  padding:0px 30px 0px 0px;
+}
+
+.c-fo-two .text-cft {
+  width: 25%;
+  height: 100%;
+  border-top: 2px solid #ffffff;
+  color: white;
+
+}
+.c-fo-two .text-cft h3{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.c-fo-two .text-cft a{
+  font-size: 1.8rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #dfeffd;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
+
+}
+.c-fo-two .text-cft a:hover{
+  text-decoration:underline;
+
+}
+.c-fo-two .text-cft p{
+  font-size: 1.3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+
+}
+.c-fo-two .text-cft div{
+  margin-top: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:whitesmoke;
+  font-size: small;
+}
+.c-fo-two .text-cft div span{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+.c-fo-three {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-fo-three button{
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 20px;
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
